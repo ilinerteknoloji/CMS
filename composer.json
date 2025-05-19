@@ -1,0 +1,22 @@
+{
+    "name": "halil/cms",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./App",
+            "Core\\": "./Core"
+        },
+        "files": [
+            "./App/Helpers/app.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Halil Ömer Tekin",
+            "email": "clon_halil_1998@hotmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "ext-json": "*"
+    }
+}
